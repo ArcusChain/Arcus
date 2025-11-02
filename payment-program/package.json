@@ -1,0 +1,21 @@
+{
+  "license": "ISC",
+  "scripts": {
+    "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "catalog:",
+    "uuid": "catalog:"
+  },
+  "devDependencies": {
+    "@types/bn.js": "catalog:",
+    "@types/chai": "catalog:",
+    "@types/mocha": "catalog:",
+    "chai": "catalog:",
+    "mocha": "catalog:",
+    "prettier": "catalog:",
+    "ts-mocha": "catalog:",
+    "typescript": "catalog:"
+  }
+}
